@@ -1,5 +1,15 @@
+*{
+  /* background-color: #282c34; */
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .App {
   text-align: center;
+  width: 100%;
+  position: relative;
+  /* background-color: #282c34; */
+    /* color:white; */
 }
 
 .App-logo {
@@ -21,7 +31,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -35,4 +45,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btnClass{
+  color:#ccc;
+  background-color: #61dafb;
+  padding: 10px;
+
+}
+
+
+a{
+  color:white !important;
+}
+
+.centerData {
+  margin: auto;
+  width: 50%;
+  border: 1px solid #8cc83c;
+  padding: 10px;
+}
+.padding25{
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.boxShadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.navbar{
+  height: 86px;
+  padding: 0;
+  background-color:#b91e32;
 }
