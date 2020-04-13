@@ -24,10 +24,10 @@ class putData2 extends Component {
         }
         axios.put(`https://jsonplaceholder.typicode.com/users/${this.state.id}`, { user })
             .then(res => {
-                console.log(res)
-                console.log("res -> ", res.data)
-                this.setState({ message: "Data has been Sent ! open console browser to check your post" })
-            });
+               // console.log(res)
+                console.log("PUT => ", res.data)
+                this.setState({ message: "Data has been Sent ! open console browser to check Method PUT" })
+            })
     }
 
     render() {

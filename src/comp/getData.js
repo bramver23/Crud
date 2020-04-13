@@ -15,7 +15,7 @@ class getData extends Component {
     const url = 'https://jsonplaceholder.typicode.com/users'
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
+    console.log("GET => ", data);
     this.setState({ users: data })
   }
   searchSpace = (event) => {
@@ -25,7 +25,7 @@ class getData extends Component {
 
   render() {
     const { users, search } = this.state;
-    console.log("users => ", users);
+    //console.log("users => ", users);
     const items = users.filter((data) => {
       if (search == null)
         return data
